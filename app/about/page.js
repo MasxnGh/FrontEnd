@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Home() {
+export default function Service() {
   return (
     <>
       <header style={{
@@ -18,8 +18,8 @@ export default function Home() {
           alignItems: 'center',
           justifyContent: 'center',
         }}>
-          <Link href="/" style={yellowButtonStyle}>หน้าหลัก</Link>
-          <Link href="/about" style={linkStyle}>ข้อมูล</Link>
+          <Link href="/" style={linkStyle}>หน้าหลัก</Link>
+          <Link href="/about" style={yellowButtonStyle}>ข้อมูล</Link>
           <Link href="/contact" style={linkStyle}>ติดต่อ</Link>
           <Link href="/service" style={linkStyle}>บริการ</Link>
         </nav>
@@ -34,9 +34,9 @@ export default function Home() {
         color: '#eee',
         padding: '40px 20px',
       }}>
-        <h1 style={{ fontSize: '3rem', color: '#fff' }}>หน้าหลัก</h1>
+        <h1 style={{ fontSize: '3rem', color: '#fff' }}>ข้อมูล</h1>
         <p style={{ fontSize: '1.2rem', color: '#ccc', marginTop: '10px' }}>
-          ยินดีต้อนรับสู่หน้าหลัก
+          ยินดีต้อนรับสู่หน้าข้อมูล
         </p>
       </main>
     </>
